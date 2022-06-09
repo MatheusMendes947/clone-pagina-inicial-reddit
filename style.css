@@ -26,4 +26,16 @@ input{
     height: 35px;
     width: 60%;
     background-color: rgb(215, 223, 226);
+    border: 0.5px;
+}
+
+#botao2{
+    height: 35px;
+    width: 10%;
+}
+
+
+#botao3{
+    height: 35px;
+    width: 10%;
 }
