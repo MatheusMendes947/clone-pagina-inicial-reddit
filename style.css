@@ -1,12 +1,7 @@
-/* html{
-    margin: 0;
-    padding: 0;
-} */
 body{
     background-color: rgb(215, 223, 226);
     color: white;
     font-family: poppinsregular;
-    /* max-width: 1200px; */
     margin: 0;
     padding: 0;
 }
@@ -21,21 +16,78 @@ header{
     background-color: white;
 }
 
+
+.logo{
+    display: flex;
+    width: 20%;
+    margin-left: 2%;
+    align-items: center;
+    align-content: center;
+}
+
+._1bWuGs_1sq4Pqy099x_yy-{
+    margin-left: 4%;
+}
+
+.classeInput{
+    display: flex;
+    /* background-color:  red; */
+    height: 100%;
+    width: 100%;
+    margin-right: 5%;
+    align-items: center;
+    align-content: center;
+
+
+}
+
 input{
     display: flex;
-    height: 35px;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(242, 246, 247);
+    border: 6px;
+    border-color: rgb(215, 223, 226);
+    border-radius: 4px;
+    /* margin-left: 5%; */
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    margin-right: 5%;
+}
+
+
+#botao1{
+    /* background-color: white; */
+    border: 9px;
+    color: blue;
+    border-color: blue;
+    align-items: center;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 60%;
-    background-color: rgb(215, 223, 226);
-    border: 0.5px;
+    height: 45px;
 }
 
 #botao2{
-    height: 35px;
-    width: 10%;
-}
-
-
-#botao3{
-    height: 35px;
-    width: 10%;
+    
+    color: rgb(242, 246, 247);
+    background-color: blue;
+    border: 0.5px;
+    align-items: center;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    height: 45px;
+    margin-left: 4%;
 }
